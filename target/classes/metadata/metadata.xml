@@ -36,8 +36,8 @@
                     <Label language="DE">Message Details</Label>
                 </GuiLabels>
                 <AttributeReference>
-                    <ReferenceName>greetingsMessage</ReferenceName>
-                    <description>Configure Greetings Message</description>
+                    <ReferenceName>Url</ReferenceName>
+                    <description>Configure Url</description>
                 </AttributeReference>
             </AttributeGroup>
             <AttributeGroup id="ScheduledPollConsumer">
@@ -129,8 +129,8 @@
                     <Label language="DE">Message Details</Label>
                 </GuiLabels>
                 <AttributeReference>
-                    <ReferenceName>greetingsMessage</ReferenceName>
-                    <description>Configure Greetings Message</description>
+                    <ReferenceName>Url</ReferenceName>
+                    <description>Configure Url</description>
                 </AttributeReference>
             </AttributeGroup>
         </Tab>
@@ -148,15 +148,15 @@
         </GuiLabels>
     </AttributeMetadata>
     <AttributeMetadata>
-        <Name>greetingsMessage</Name>
+        <Name>Url</Name>
         <Usage>false</Usage>
         <DataType>xsd:string</DataType>
         <Default></Default>
         <Length></Length>
         <isparameterized>true</isparameterized>
         <GuiLabels guid="239dd7c8-61ce-4ced-8037-437d688257f1">
-            <Label language="EN">Greetings Message</Label>
-            <Label language="DE">Greetings Message</Label>
+            <Label language="EN">Url</Label>
+            <Label language="DE">Url</Label>
         </GuiLabels>
     </AttributeMetadata>
     <AttributeMetadata>

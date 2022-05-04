@@ -49,7 +49,7 @@ public class sampleAdapterProducer extends DefaultProducer {
 
     public void process(final Exchange exchange) throws Exception {
         String input = exchange.getIn().getBody(String.class);
-		String greetingMessage = endpoint.getGreetingsMessage();
+		String greetingMessage = endpoint.getUrl();
 		if(greetingMessage == null || greetingMessage.isEmpty()) {
 			greetingMessage = "(Producer) Hello!";
 		}

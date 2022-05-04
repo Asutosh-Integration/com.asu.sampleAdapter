@@ -50,7 +50,7 @@ public class sampleAdapterConsumer extends ScheduledPollConsumer {
         Exchange exchange = endpoint.createExchange();
 
          // create a message body
-        String greetingsMessage = endpoint.getGreetingsMessage();
+        String greetingsMessage = endpoint.getUrl();
         Date now = new Date();
         if(greetingsMessage == null || greetingsMessage.isEmpty()){
         	LOG.error("The message is empty! Default one will be used");

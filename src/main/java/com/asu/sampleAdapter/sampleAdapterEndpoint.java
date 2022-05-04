@@ -39,7 +39,7 @@ public class sampleAdapterEndpoint extends DefaultPollingEndpoint {
     private transient Logger logger = LoggerFactory.getLogger(sampleAdapterEndpoint.class);
 
     @UriParam
-    private String greetingsMessage;
+    private String Url;
     
     @UriParam
     private boolean useFormater;
@@ -52,12 +52,12 @@ public class sampleAdapterEndpoint extends DefaultPollingEndpoint {
 		this.useFormater = useFormater;
 	}
 
-	public String getGreetingsMessage() {
-		return greetingsMessage;
+	public String getUrl() {
+		return Url;
 	}
 
-	public void setGreetingsMessage(String greetingsMessage) {
-		this.greetingsMessage = greetingsMessage;
+	public void setUrl(String Url) {
+		this.Url = Url;
 	}
 
 	public sampleAdapterEndpoint() {

@@ -42,8 +42,8 @@ public class sampleAdapterComponentTest extends CamelTestSupport {
     protected RouteBuilder createRouteBuilder() throws Exception {
         return new RouteBuilder() {
             public void configure() {
-                from("scheme://foo?greetingsMessage=Hello world1")
-                  .to("scheme://bar?greetingsMessage=Hello world2")
+                from("scheme://foo?Url=Hello world1")
+                  .to("scheme://bar?Url=Hello world2")
                   .to("mock:result");
             }
         };
