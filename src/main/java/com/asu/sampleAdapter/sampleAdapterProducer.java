@@ -60,7 +60,7 @@ public class sampleAdapterProducer extends DefaultProducer {
         String messageInUpperCase = greetingMessage.toLowerCase();
         if (input != null) {
             LOG.debug(input);
-            messageInUpperCase = "Input from Runtime " + input + "\n Response from " + result + " \n URL: " + messageInUpperCase;
+            messageInUpperCase = "Input from Runtime Dip " + input + "\n Response from " + result + " \n URL: " + messageInUpperCase;
             System.out.print(messageInUpperCase + "\n");
         }
         exchange.getIn().setBody(messageInUpperCase);
